@@ -1,0 +1,19 @@
+name: simple_dart_multilang_form_panel
+description: Multilang FormPanel Component
+version: 0.0.1
+repository: https://github.com/simple-dart/multilang_form_panel
+platforms:
+  web:
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+
+dependencies:
+  simple_dart_multilang_controller: ^0.0.1
+  simple_dart_multilang_label: ^0.0.1
+  simple_dart_ui_core: ^0.0.2
+
+dev_dependencies:
+  build_runner: ^2.3.2
+  build_web_compilers:

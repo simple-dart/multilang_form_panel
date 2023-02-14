@@ -17,6 +17,7 @@ class MultilangFormPanel extends PanelComponent {
       ..width = _labelsWidth;
     final row = Panel()
       ..spacing = _formSpacing
+      ..vAlign = Align.center
       ..add(multiLangLabel)
       ..add(component);
     labels.add(multiLangLabel);
